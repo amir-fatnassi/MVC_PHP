@@ -1,0 +1,120 @@
+:root{
+    --first-color: #424874;
+    --second-color: #a6b1e1;
+    --end-color: #dcd6f7;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ul:hover{
+    list-style: none;
+    padding: 0;
+}
+body{
+    background: #f9f9f9;
+}
+.navbar{
+    background: #fff !important ;
+    border-bottom: 1px solid #EAEAEA;
+}
+.content{
+    margin-top: 40px;
+}
+
+
+
+
+.content .post{
+    background: #fff;
+    text-align: center;
+    padding: 20px 22px;
+    border-bottom: 1px solid #EAEAEA;
+    margin-bottom: 20px;
+}
+.post .post-image{
+    width: 100%;
+}
+.post .post-image img{
+    width: 100%;
+    height: 300px;
+}
+.post .post-title{
+    margin: 10px auto;
+}
+.post .post-details button.btn-det{
+    background: transparent;
+    color: var(--second-color);
+    width: 110px;
+    border: 1px solid var(--second-color);
+    border-radius: 3px;
+}
+.post .post-details button.btn-det:hover{
+    background: var(--first-color);
+    color: #fff;
+}
+.post .post-details .post-info span{
+    margin: 10px;
+}
+.post .post-details .post-info span i {
+    padding: 5px;
+}
+/* start side bar */
+.categories{
+    background: #fff;
+    border-bottom: 1px solid #EAEAEA;
+    padding: 10px;
+}
+.categories h4{
+    text-align: center;
+    color: var(--first-color);
+    margin: 10px auto;
+}
+.categories ul{
+    list-style: none;
+    padding: 0;
+}
+.categories ul li{
+    background: var(--first-color);
+    margin-bottom: 4px;
+    padding: 4px;
+}
+.categories ul li:hover{
+    background: var(--second-color);
+    transition: all 0.3s ease-in-out;
+}
+.categories ul li a{
+    color: #fff;
+}
+.categories ul li span i{
+    margin: 0 5px;
+}
+/* end side bar */
+/* start last post */
+.last-post{
+    margin-top: 20px;
+    background: #fff;
+    border-bottom: 1px solid #EAEAEA;
+    padding: 10px;
+}
+.last-post h4{
+    text-align: center;
+    color: var(--first-color);
+    margin: 10px auto;
+}
+.last-post ul li{
+    margin: 15px auto; 
+}
+.last-post ul li a{
+    color: var(--first-color);
+}
+.last-post ul li a:hover{
+    color: var(--second-color);
+    transition: all 0.3s ease-in-out;
+}
+/* end last post */
+footer{
+    background: rgb(78, 78, 78);
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+}

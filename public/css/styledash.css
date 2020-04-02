@@ -1,0 +1,68 @@
+:root{
+    --first-color: #424874;
+    --second-color: #a6b1e1;
+    --end-color: #dcd6f7;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ul:hover{
+    list-style: none;
+    padding: 0;
+}
+body{
+    background: #f9f9f9;
+}
+.content{
+    margin-top: 20px;
+} 
+.content .div-but{
+    text-align: end;
+}
+.content .btn-det{
+    background: transparent;
+    color: var(--second-color);
+    width: 150px;
+    border: 1px solid var(--second-color);
+    border-radius: 3px;
+}
+.content .btn-det:hover{
+    background: var(--first-color);
+    color: #fff;
+}
+
+.side-area{
+    background: #fff;
+    padding: 10px 0  ;
+}
+.side-area h4{
+    text-align: center;
+    margin-bottom: 15px;
+    color: var(--first-color);
+}
+.side-area ul li{
+    background: var(--first-color);
+    margin: 5px;
+    padding: 5px 20px;
+}
+.side-area ul li:hover{
+    background: var(--second-color);
+    transition: all 0.3s ease-in-out;
+}
+.side-area ul li a{
+    color: #fff; 
+}
+.side-area #menu li{
+    background: #0b25e6;
+}
+.display-cat{
+    margin-top: 70px;
+}
+button.bedete{
+    background: var(--first-color); 
+    color: #fff; 
+    cursor: default; 
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+}
